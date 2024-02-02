@@ -3,12 +3,14 @@
     "version": "0.0.1",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "file:../device"
     },
     "files": [
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "test_ext.cpp",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
