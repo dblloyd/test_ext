@@ -3,17 +3,12 @@
     "version": "0.0.1",
     "description": "",
     "dependencies": {
-        "device": "file:../device"
+        "screen": "file:../screen"
     },
     "files": [
-        "main.ts",
-        "README.md",
-        "assets.json",
+        "test_ext.ts",
         "test_ext.cpp",
         "shims.d.ts"
-    ],
-    "testFiles": [
-        "test.ts"
     ],
     "targetVersions": {
         "target": "1.12.47",
